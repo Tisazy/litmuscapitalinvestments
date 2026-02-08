@@ -47,10 +47,9 @@ nav {
     margin: 0 auto;
 }
 
-.logo h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: var(--dark-blue);
+.logo img {
+    height: 50px;
+    width: auto;
 }
 
 nav ul {
@@ -122,6 +121,19 @@ section h2 {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 40px;
+}
+
+/* Gallery */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 /* Footer */
